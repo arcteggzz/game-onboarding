@@ -6,7 +6,7 @@ export default function LoginPage() {
   return (
     <>
       <AnimatedFadeInPage>
-        <div className="LoginPage">LoginPage</div>
+        <div className="LoginPage">Adesanyya Fasaki</div>
       </AnimatedFadeInPage>
     </>
   );
