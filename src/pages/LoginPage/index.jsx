@@ -1,10 +1,13 @@
 import React from "react";
 import "./LoginPage.css";
+import AnimatedFadeInPage from "../../utils/AnimatedFadeInPage";
 
 export default function LoginPage() {
   return (
     <>
-      <div className="LoginPage">LoginPage</div>
+      <AnimatedFadeInPage>
+        <div className="LoginPage">LoginPage</div>
+      </AnimatedFadeInPage>
     </>
   );
 }

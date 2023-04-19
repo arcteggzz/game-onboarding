@@ -1,10 +1,13 @@
 import React from "react";
 import "./CreateAccountPage.css";
+import AnimatedFadeInPage from "../../utils/AnimatedFadeInPage";
 
 export default function CreateAccountPage() {
   return (
     <>
-      <div className="CreateAccountPage">CreateAccountPage</div>
+      <AnimatedFadeInPage>
+        <div className="CreateAccountPage">CreateAccountPage</div>
+      </AnimatedFadeInPage>
     </>
   );
 }
