@@ -5,7 +5,7 @@ import feature2 from "./assets/amico.png"
 import feature1 from "./assets/pana.png"
 import feature3 from "./assets/bro.png"
 import logo from "./assets/logo.png"
-import vector from "./assets/vector.png"
+import vector from "./assets/Vector.png"
 import { Link } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 
