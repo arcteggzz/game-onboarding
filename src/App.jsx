@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import { Route, Routes, useLocation, Link } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import ComingSoon from "./pages/comingsoon";
 
 //pages
 // import SplashScreenPage from "./pages/SplashScreenPage";
@@ -23,7 +24,7 @@ function App() {
           <Route path="/" element={<SplashScreenPage />} />
           <Route path="/features" element={<FeaturesPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/create-account" element={<CreateAccountPage />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
         </Routes>
       </AnimatePresence>
     </>

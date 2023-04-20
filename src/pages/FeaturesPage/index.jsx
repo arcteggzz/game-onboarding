@@ -99,7 +99,7 @@ export default function FeaturesPage() {
   return (
     <>
       <AnimatedFadeInPage>
-      <img src={logo} alt="Game Library" className="w-[20%] mx-[1rem] lg:w-[10%]"/>
+      <img src={logo} alt="Logo" className="w-[20%] mx-[1rem] lg:w-[10%]"/>
         <div className="flex flex-col items-center">
         <div className="FeaturesPage flex flex-col items-center lg:flex-row-reverse lg:w-[80%] lg:items-center lg:justify-center lg:h-[100vh]">
 

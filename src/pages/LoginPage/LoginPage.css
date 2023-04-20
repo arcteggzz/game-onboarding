@@ -1,4 +1,16 @@
-.LoginPage .bgImage {
+.loginpage{
+  background-image: url("../LoginPage/asset/bgImage.png");
+  background-size: contain ;
+  /* background-repeat: no-repeat; */
+}
+input{
+  background-color: rgba(0, 0, 0, 5%);
+}
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+/* .LoginPage .bgImage {
   background-image: url("../LoginPage/asset/bgImage.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,10 +91,10 @@
   background-color: #ccc;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 50%; */
   /* z-index: -2; */
-}
-
+/* } */
+/* 
 .option p::after {
   content: "";
   display: block;
@@ -91,10 +103,10 @@
   background-color: #ccc;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 50%; */
   /* z-index: -2; */
-}
-
+/* } */
+/* 
 .option span {
   background: #fff;
 }
@@ -147,12 +159,12 @@ input[type="submit"] {
 .LogIn span {
   color: #022882;
   font-weight: 700;
-}
-
+} */
+/* 
 @media screen and (max-width: 788px) {
-  .LoginPage .bgImage {
+  .LoginPage .bgImage { */
     /* position: relative; */
-    background-image: url("../LoginPage/asset/bgImage.png");
+    /* background-image: url("../LoginPage/asset/bgImage.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-origin: content-box;
@@ -166,18 +178,18 @@ input[type="submit"] {
 
   .logo p {
     display: none;
-  }
-
+  } */
+/* 
   .LoginPage .register {
     width: 100%;
-    height: auto;
+    height: auto; */
     /* margin-top: 2.5rem; */
-}
+/* } */
 
-.register .registerContent{
+/* .register .registerContent{ */
     /* width: 80%;
     height: 83vh; */
-    margin:auto;
+    /* margin:auto;
     background-color: white;
     box-sizing: border-box;
     border-radius: 10px;
@@ -221,8 +233,7 @@ input[type="submit"] {
   left: 0;
   top: 50%;
   /* z-index: -2; */
-}
-
+/* 
 .option p::after {
   content: "";
   display: block;
@@ -233,8 +244,7 @@ input[type="submit"] {
   right: 0;
   top: 50%;
   /* z-index: -2; */
-}
-
+/* 
 .option span {
   background: #fff;
 }
@@ -287,5 +297,5 @@ input[type="submit"] {
 .LogIn span {
   color: #022882;
   font-weight: 700;
-}
-}
+} */
+
