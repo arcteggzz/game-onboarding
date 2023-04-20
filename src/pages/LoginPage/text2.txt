@@ -146,14 +146,6 @@ input[type="submit"] {
   display: block;
 }
 
-.forPass {
-  text-align: center;
-  color: #022882;
-  display: block;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-
 .checkbox {
   display: none;
 }
@@ -297,19 +289,8 @@ input[type="submit"] {
     color: #ccc;
   }
 
-  .forPass {
-    display: none;
-  }
-
   .checkbox {
     display: block;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .checkbox p {
-    margin-top: 0.6rem;
-    color: #022882;
   }
 
   input[type="checkbox"] {
@@ -317,8 +298,12 @@ input[type="submit"] {
     margin-right: 5px;
   }
 
-  .remember {
+  .aggrement{
     font-size: smaller;
+  }
+
+  .aggrement span {
+    color: #022882;
   }
 
   .tBreak {

@@ -4,6 +4,7 @@ import logo from "../LoginPage/asset/logo.png";
 import facebook from "../LoginPage/asset/facebook.png";
 import google from "../LoginPage/asset/google.png";
 import mac from "../LoginPage/asset/mac.png";
+import { AiOutlineArrowLeft } from "react-icons/Ai";
 import AnimatedFadeInPage from "../../utils/AnimatedFadeInPage";
 
 export default function LoginPage() {
@@ -12,9 +13,11 @@ export default function LoginPage() {
       <AnimatedFadeInPage>
         <main className="LoginPage">
           <div className="bgImage">
+            <div className="imgMobile">
+              <img src={logo} />
+            </div>
             <div className="logo">
               <div>
-                <img src={logo} className="imgMobile" />
                 <img src={logo} className="img" />
                 <p>
                   Let's explore and enjoy the fun in the new Zojatech Gaming
@@ -24,7 +27,20 @@ export default function LoginPage() {
             </div>
             <div className="register">
               <div className="registerContent">
-                <p className="signUp">Sign Up</p>
+                <p className="signUp">Log In</p>
+                <div className="mobileReg">
+                  <div>
+                    <a href="#">
+                      <AiOutlineArrowLeft className="arrow" />
+                    </a>
+                    <p className="reg">
+                      <a href="#">Register</a>
+                    </p>
+                  </div>
+                  <p className="logIn">
+                    <a href="#">Log In</a>
+                  </p>
+                </div>
                 <div className="socials">
                   <a href="#">
                     <img src={google} className="imgGroup" />
@@ -50,6 +66,7 @@ export default function LoginPage() {
                 <div className="container">
                   <form>
                     <div className="col-75">
+                      <label for="email">Email</label>
                       <input
                         type="text"
                         id="email"
@@ -59,6 +76,7 @@ export default function LoginPage() {
                     </div>
 
                     <div className="col-75">
+                      <label for="password">Password</label>
                       <input
                         type="text"
                         id="password"
@@ -67,26 +85,30 @@ export default function LoginPage() {
                       ></input>
                     </div>
 
-                    <div className="col-75">
-                      <input
-                        type="text"
-                        id="con_password"
-                        name="con_password"
-                        placeholder="Confirm Password"
-                      ></input>
-
-                      <div className="col-75">
-                        <input type="submit" value="Register"></input>
+                    <div className="checkbox">
+                      <div>
+                        <input type="checkbox"></input>
+                        <label className="Remember">Remember me</label>
                       </div>
+                      <p>
+                        <a href="#">Forget Password?</a>
+                      </p>
                     </div>
+                    
+
+                    <div className="col-75">
+                      <input type="submit" value="Log In"></input>
+                    </div>
+                    
+                    <p className="forPass"><a href="#">Forget Password?</a></p>
                   </form>
                 </div>
 
                 <hr className="tBreak" />
                 <p className="LogIn">
-                  I already have an account.{" "}
+                  I dont have an account.{" "}
                   <span>
-                    <a href="#">Log in</a>
+                    <a href="#"> Register?</a>
                   </span>
                 </p>
               </div>
