@@ -24,7 +24,7 @@ export default function LoginPage() {
             </div>
             <div className="register">
               <div className="registerContent">
-                <p className="signUp">Sign Up</p>
+                <p className="signUp">Log In</p>
                 <div className="socials">
                   <a href="#">
                     <img src={google} className="imgGroup" />
@@ -54,7 +54,7 @@ export default function LoginPage() {
                         type="text"
                         id="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Username"
                       ></input>
                     </div>
 
@@ -65,28 +65,25 @@ export default function LoginPage() {
                         name="password"
                         placeholder="Password"
                       ></input>
-                    </div>
-
-                    <div className="col-75">
-                      <input
-                        type="text"
-                        id="con_password"
-                        name="con_password"
-                        placeholder="Confirm Password"
-                      ></input>
 
                       <div className="col-75">
-                        <input type="submit" value="Register"></input>
+                        <input type="submit" value="Log In"></input>
                       </div>
+
+                      <p className="LogIn mt-[20px">
+                        <span>
+                          <a href="#">Forgot Password</a>
+                        </span>
+                      </p>
                     </div>
                   </form>
                 </div>
 
                 <hr className="tBreak" />
                 <p className="LogIn">
-                  I already have an account.{" "}
+                  I don’t have an account.{" "}
                   <span>
-                    <a href="#">Log in</a>
+                    <a href="/create-account">Register?</a>
                   </span>
                 </p>
               </div>
